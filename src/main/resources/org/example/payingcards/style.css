@@ -1,0 +1,276 @@
+.game-root {
+    -fx-background-color: #b9dec5;
+    -fx-font-family: "Arial";
+}
+
+.title {
+    -fx-font-size: 34px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #18324f;
+}
+
+.instructions {
+    -fx-font-size: 15px;
+    -fx-text-fill: #283849;
+}
+
+.values {
+    -fx-font-size: 18px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #18324f;
+}
+
+.text-field {
+    -fx-font-size: 14px;
+    -fx-text-fill: #172b40;
+    -fx-prompt-text-fill: #596675;
+    -fx-background-color: white;
+    -fx-background-radius: 8;
+    -fx-border-color: #65788c;
+    -fx-border-radius: 8;
+    -fx-border-width: 1.5;
+    -fx-padding: 10;
+}
+
+.text-field:focused {
+    -fx-border-color: #205a96;
+    -fx-border-width: 2;
+}
+
+.button {
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+    -fx-background-radius: 10;
+    -fx-border-radius: 10;
+    -fx-padding: 10 28;
+    -fx-cursor: hand;
+}
+
+.verify-button {
+    -fx-background-color: #205a96;
+    -fx-text-fill: white;
+}
+
+.verify-button:hover {
+    -fx-background-color: #174575;
+}
+
+.refresh-button {
+    -fx-background-color: #dce9f6;
+    -fx-text-fill: #18324f;
+    -fx-border-color: #205a96;
+    -fx-border-width: 1.5;
+}
+
+.refresh-button:hover {
+    -fx-background-color: #c6dcf1;
+}
+
+.button:focused {
+    -fx-border-color: #172b40;
+    -fx-border-width: 2;
+}
+.card-background {
+    -fx-background-color: white;
+    -fx-background-radius: 8;
+    -fx-border-color: #537660;
+    -fx-border-radius: 8;
+    -fx-border-width: 1;
+    -fx-padding: 8;
+    -fx-effect: dropshadow(
+            gaussian, rgba(0, 0, 0, 0.18), 8, 0, 0, 3
+    );
+}
+.title,
+.instructions,
+.values {
+    -fx-background-color: rgba(255, 255, 255, 0.92);
+    -fx-background-radius: 8;
+    -fx-padding: 5 12;
+    -fx-text-fill: #172b40;
+}
+.button {
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+    -fx-padding: 11 24;
+    -fx-background-radius: 22;
+    -fx-border-radius: 22;
+    -fx-border-width: 2;
+    -fx-border-color: transparent;
+    -fx-cursor: hand;
+    -fx-effect: dropshadow(
+            gaussian, rgba(0, 0, 0, 0.25), 8, 0, 0, 3
+    );
+}
+
+.verify-button {
+    -fx-background-color: linear-gradient(to bottom, #287c57, #185438);
+    -fx-text-fill: white;
+}
+
+.verify-button:hover {
+    -fx-background-color: #216b49;
+}
+
+.refresh-button {
+    -fx-background-color: linear-gradient(to bottom, #347fc0, #205a96);
+    -fx-text-fill: white;
+}
+
+.refresh-button:hover {
+    -fx-background-color: #286aa7;
+}
+
+.background-button {
+    -fx-background-color: linear-gradient(to bottom, #8058ae, #593781);
+    -fx-text-fill: white;
+}
+
+.background-button:hover {
+    -fx-background-color: #70469b;
+}
+
+.button:pressed {
+    -fx-translate-y: 2;
+    -fx-effect: none;
+}
+
+.button:focused {
+    -fx-border-color: #ffda79;
+}
+/* Rounded buttons with a dark surface. */
+.button {
+    -fx-background-color: #172332;
+    -fx-text-fill: white;
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+    -fx-padding: 11 24;
+    -fx-background-radius: 22;
+    -fx-border-radius: 22;
+    -fx-border-width: 2;
+    -fx-cursor: hand;
+}
+
+/* Green LED glow. */
+.verify-button {
+    -fx-border-color: #56ff9a;
+    -fx-effect: dropshadow(
+            gaussian, #56ff9a, 18, 0.45, 0, 0
+    );
+}
+
+.verify-button:hover {
+    -fx-background-color: #193b2b;
+    -fx-effect: dropshadow(
+            gaussian, #56ff9a, 26, 0.6, 0, 0
+    );
+}
+
+/* Blue LED glow. */
+.refresh-button {
+    -fx-border-color: #61d8ff;
+    -fx-effect: dropshadow(
+            gaussian, #61d8ff, 18, 0.45, 0, 0
+    );
+}
+
+.refresh-button:hover {
+    -fx-background-color: #193647;
+    -fx-effect: dropshadow(
+            gaussian, #61d8ff, 26, 0.6, 0, 0
+    );
+}
+
+/* Purple LED glow. */
+.background-button {
+    -fx-border-color: #df91ff;
+    -fx-effect: dropshadow(
+            gaussian, #df91ff, 18, 0.45, 0, 0
+    );
+}
+
+.background-button:hover {
+    -fx-background-color: #362343;
+    -fx-effect: dropshadow(
+            gaussian, #df91ff, 26, 0.6, 0, 0
+    );
+}
+
+.button:pressed {
+    -fx-translate-y: 2;
+}
+
+.button:focused {
+    -fx-border-width: 3;
+}
+.dialog-pane .button {
+    -fx-font-size: 13px;
+    -fx-padding: 5 14;
+    -fx-min-width: 55px;
+    -fx-min-height: 28px;
+    -fx-background-radius: 8;
+    -fx-border-radius: 8;
+    -fx-effect: none;
+}
+.card-background {
+    -fx-background-color: white;
+    -fx-background-radius: 8;
+    -fx-border-color: #61d8ff;
+    -fx-border-radius: 8;
+    -fx-border-width: 2;
+    -fx-padding: 8;
+    -fx-effect: dropshadow(
+            gaussian, #61d8ff, 20, 0.5, 0, 0
+    );
+}
+
+.card-background:hover {
+    -fx-effect: dropshadow(
+            gaussian, #61d8ff, 30, 0.65, 0, 0
+    );
+}
+.game-root {
+    -fx-background-color: #080b12;
+    -fx-font-family: "Trebuchet MS";
+}
+
+.title {
+    -fx-font-family: "Impact";
+    -fx-font-size: 42px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #79e5ff;
+    -fx-background-color: transparent;
+    -fx-padding: 5 12;
+    -fx-effect: dropshadow(
+            gaussian, #20bfff, 16, 0.5, 0, 0
+    );
+}
+
+.instructions,
+.values {
+    -fx-font-family: "Trebuchet MS";
+    -fx-font-weight: bold;
+    -fx-text-fill: #ffffff;
+    -fx-background-color: rgba(8, 11, 18, 0.88);
+    -fx-background-radius: 8;
+    -fx-padding: 5 12;
+}
+
+.values {
+    -fx-text-fill: #79e5ff;
+    -fx-font-size: 19px;
+}
+
+.button {
+    -fx-font-family: "Trebuchet MS";
+    -fx-font-weight: bold;
+}
+/* Gold LED glow for the solution button. */
+.solve-button {
+    -fx-border-color: #ffda79;
+    -fx-effect: dropshadow(gaussian, #ffda79, 18, 0.45, 0, 0);
+}
+.solve-button:hover {
+    -fx-background-color: #40351c;
+    -fx-effect: dropshadow(gaussian, #ffda79, 26, 0.6, 0, 0);
+}
